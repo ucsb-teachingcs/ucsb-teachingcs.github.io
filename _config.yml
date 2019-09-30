@@ -23,6 +23,8 @@ off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048/
 #kramdown:
 #  parse_block_html: true
 
+include:
+  - _pages
 exclude: ['vendor', 'setup.sh', 'jekyll.sh']
 
 timezone: America/Los_Angeles
@@ -47,9 +49,16 @@ defaults:
       path: ""
       type: topics
     values:
-      layout: topic
+      layout: default
   - scope:
       path: ""
       type: resources
     values:
-      layout: topic
+      layout: default
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: pages
+    values:
+      layout: "default"
+

@@ -22,15 +22,18 @@ main_dropdown:
    title: Resources
    items:
      - title: Topics
-       url: /topic_list/
+       url: /topics/
      - title: Resources
-       url: /resources_list/
+       url: /resources/
 
 offerings:
-   title: S19
+   title: F19
    url: /	
-   baseurl: /s19
+   baseurl: /f19
    items:
+      - title: F19
+        url: /
+        baseurl: /f19
       - title: S19
         url: /
         baseurl: /s19

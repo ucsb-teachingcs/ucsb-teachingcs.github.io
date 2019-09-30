@@ -4,6 +4,8 @@ title: UCSB CS190J
 
 <h1>UCSB CMPSC 190J: Teaching Computer Science </h1>
 
+* [Tutor Program FAQ](/topics/tutor_faq/)
+
 <div id="about" data-role="collapsible" data-collapsed="true" markdown="1">
 <h2>About this course</h2>
 

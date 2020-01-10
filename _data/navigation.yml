@@ -26,33 +26,179 @@ main_dropdown:
      - title: Resources
        url: /resources/
 
-offerings:
-   title: F19
-   url: /	
-   baseurl: /f19
-   items:
-      - title: F19
-        url: /
-        baseurl: /f19
-      - title: S19
-        url: /
-        baseurl: /s19
+offering_menus:
+  -
+    term: W20
+    baseurl: /w20
+    items: 
+      - title: Hwk
+        url: /hwk_list/
+        description: "Homework Assignments"
+      - title: Cal
+        url: /info/calendar/
+        description: "Assignment Calendar"
+      - title: More
+        dropdown:
+           - title: Syllabus
+             url: /info/syllabus/
+             description: "Syllabus"    
+           - title: Info Pages
+             url: /info_list/
+             description: "List of General Information Pages"
+           - title: Office Hours	
+             url: /info/office_hours/
+           - title: Staff
+             url: /staff_list/
+      - title: Links
+        dropdown:	 
+           - title: Gauchospace
+             url: https://gauchospace.ucsb.edu
+             description: "Overall Grade Information"
+           - title: GradeScope
+             url: https://gradescope.com
+             description: "HW and Lab Grades"
+           - title: Piazza
+             url: https://piazza.com
+             description: "Q&A Forum"
+  -
+    term: F19
+    baseurl: /f19
+    items:
+      - title: Hwk
+        url: /hwk_list/
+        description: "Homework Assignments"
+      - title: Cal
+        url: /info/calendar/
+        description: "Assignment Calendar"
+      - title: More
+        dropdown:
+           - title: Syllabus
+             url: /info/syllabus/
+             description: "Syllabus"    
+           - title: Info Pages
+             url: /info_list/
+             description: "List of General Information Pages"
+           - title: Office Hours	
+             url: /info/office_hours/
+           - title: Staff
+             url: /staff_list/
+      - title: Links
+        dropdown:	 
+           - title: Gauchospace
+             url: https://gauchospace.ucsb.edu
+             description: "Overall Grade Information"
+           - title: GradeScope
+             url: https://gradescope.com
+             description: "HW and Lab Grades"
+           - title: Piazza
+             url: https://piazza.com
+             description: "Q&A Forum"
 
-offering_links:
-  - title: Links
-    dropdown:	 
-       - title: Gauchospace
-         url: https://gauchospace.ucsb.edu
-         description: "Overall Grade Information"
-       - title: Gradescope
-         url: https://gradescope.com
-         description: "HW and Lab Grades"
-       - title: Piazza
-         url: https://piazza.com
-         description: "Q&A Forum"
-  - title: Github
-    dropdown:
-       - title: ucsb-teaching-cs
-         url: https://github.com/ucsb-teaching-cs
+  -
+    term: F19-Conrad
+    baseurl: /f19-conrad
+    items:
+
+      - title: Hwk
+        url: /hwk_list/
+        description: "Homework Assignments"
+      - title: Cal
+        url: /info/calendar/
+        description: "Assignment Calendar"
+      - title: More
+        dropdown:
+           - title: Syllabus
+             url: /info/syllabus/
+             description: "Syllabus"    
+           - title: Info Pages
+             url: /info_list/
+             description: "List of General Information Pages"
+           - title: Office Hours	
+             url: /info/office_hours/
+           - title: Staff
+             url: /staff_list/
+      - title: Links
+        dropdown:	 
+           - title: Gauchospace
+             url: https://gauchospace.ucsb.edu
+             description: "Overall Grade Information"
+           - title: GradeScope
+             url: https://gradescope.com
+             description: "HW and Lab Grades"
+           - title: Piazza
+             url: https://piazza.com
+             description: "Q&A Forum"
+  -
+    term: S19
+    baseurl: /s19
+    items: 
+      - title: Hwk
+        url: /hwk_list/
+        description: "Homework Assignments"
+      - title: Cal
+        url: /info/calendar/
+        description: "Assignment Calendar"
+      - title: More
+        dropdown:
+           - title: Syllabus
+             url: /info/syllabus/
+             description: "Syllabus"    
+           - title: Info Pages
+             url: /info_list/
+             description: "List of General Information Pages"
+           - title: Office Hours	
+             url: /info/office_hours/
+           - title: Staff
+             url: /staff_list/
+      - title: Links
+        dropdown:	 
+           - title: Gauchospace
+             url: https://gauchospace.ucsb.edu
+             description: "Overall Grade Information"
+           - title: GradeScope
+             url: https://gradescope.com
+             description: "HW and Lab Grades"
+           - title: Piazza
+             url: https://piazza.com
+             description: "Q&A Forum"
+  -
+    term: W19
+    baseurl: /w19
+    items:
+      - title: Hwk
+        url: /hwk_list/
+        description: "Homework Assignments"
+      - title: Cal
+        url: /info/calendar/
+        description: "Assignment Calendar"
+      - title: More
+        dropdown:
+           - title: Syllabus
+             url: /info/syllabus/
+             description: "Syllabus"    
+           - title: Info Pages
+             url: /info_list/
+             description: "List of General Information Pages"
+           - title: Office Hours	
+             url: /info/office_hours/
+           - title: Staff
+             url: /staff_list/
+      - title: Links
+        dropdown:	 
+           - title: Gauchospace
+             url: https://gauchospace.ucsb.edu
+             description: "Overall Grade Information"
+           - title: GradeScope
+             url: https://gradescope.com
+             description: "HW and Lab Grades"
+           - title: Piazza
+             url: https://piazza.com
+             description: "Q&A Forum"
+      - title: Github
+        dropdown:
+           - title: ucsb-cs190J-w19
+             url: https://github.com/ucsb-cs190J/w19
+
+
 
 

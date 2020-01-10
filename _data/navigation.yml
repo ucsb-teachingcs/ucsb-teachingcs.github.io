@@ -27,43 +27,10 @@ main_dropdown:
        url: /resources/
 
 offering_menus:
--
+
+  -
     term: W20-Mirza
     baseurl: /w20-mirza
-    items:
-
-      - title: Hwk
-        url: /hwk_list/
-        description: "Homework Assignments"
-      - title: Cal
-        url: /info/calendar/
-        description: "Assignment Calendar"
-      - title: More
-        dropdown:
-           - title: Syllabus
-             url: /info/syllabus/
-             description: "Syllabus"    
-           - title: Info Pages
-             url: /info_list/
-             description: "List of General Information Pages"
-           - title: Office Hours	
-             url: /info/office_hours/
-           - title: Staff
-             url: /staff_list/
-      - title: Links
-        dropdown:	 
-           - title: Gauchospace
-             url: https://gauchospace.ucsb.edu
-             description: "Overall Grade Information"
-           - title: GradeScope
-             url: https://gradescope.com
-             description: "HW and Lab Grades"
-           - title: Piazza
-             url: https://piazza.com
-             description: "Q&A Forum"
-  -
-    term: W20
-    baseurl: /w20
     items: 
       - title: Hwk
         url: /hwk_list/

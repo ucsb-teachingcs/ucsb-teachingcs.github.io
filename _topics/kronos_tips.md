@@ -26,3 +26,5 @@ desc: "Useful Tips about logging in your hours in Kronos - attention, first time
 * Step 5. At the end of the pay period, make sure the information you entered is accurate, and confirm the total number of hours worked (will be summed on the right). You then need to approve your timecard. Go to the top left corner, click on the checkmark, and sleect "Approva Timecard". The table will turn orange. Your timecard is then reviewed by your supervisor and the CS Department employee to write you a paycheck. You will normally get paid in 2 weeks minus two days since the end of a pay period.
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vR8BnsNkYadcCbUyxOtJvmrNLmBGUyiSpkHOzvGFMlUyKYvZICmZwVjlWaPn_J2ezgP7G-b7_Kizz1y/pub?w=1080&amp;h=720" style="margins:auto;">
+
+<p style="font-size:9px;">For admins - pictures [source](https://drive.google.com/drive/folders/1Vcy6Vno4iHhyEgyh26stjTX4PrZshh68):</p>

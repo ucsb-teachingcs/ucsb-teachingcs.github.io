@@ -28,6 +28,28 @@ main_dropdown:
 
 offering_menus:
   -
+    term: W21
+    baseurl: /w21
+    items: 
+      - title: Cal
+        url: /schedule/
+        description: "Assignment Calendar"
+      - title: Syllabus
+        url: /about/
+      - title: Staff
+        url: /staff/
+      - title: Links
+        dropdown:	 
+           - title: Gauchospace
+             url: https://gauchospace.ucsb.edu
+             description: "Overall Grade Information"
+           - title: GradeScope
+             url: https://gradescope.com
+             description: "HW and Lab Grades"
+           - title: Piazza
+             url: https://piazza.com
+             description: "Q&A Forum"
+  -
     term: F20
     baseurl: /f20
     items: 
